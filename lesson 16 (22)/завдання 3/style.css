@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 2px solid;
+    padding: 10px;
+    margin: 100px auto;
+    width: 840px;
+    height: 170px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.modal_container{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    z-index: -1;
+}
+
+.modal{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    position: relative;
+}
+
+.box:nth-last-of-type(1) {
+    background-color: yellow;
+}
+.box:nth-last-of-type(2) {
+    background-color: blue;
+}
+.box:nth-last-of-type(3) {
+    background-color: red;
+}
+.box:nth-last-of-type(4) {
+    background-color: green;
+}
+.box:nth-last-of-type(5) {
+    background-color: blueviolet;
+}
